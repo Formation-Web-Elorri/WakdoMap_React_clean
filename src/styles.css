@@ -1,0 +1,28 @@
+@import "tailwindcss" source(none);
+@source "../src";
+
+:root {
+  --yellow: #f0c900;
+  --border-grey: #7d7d7d;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  color: #000;
+  background: #fff;
+}
+
+button {
+  font-family: inherit;
+}
